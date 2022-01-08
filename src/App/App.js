@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CovidCard from './Components/CovidCard/CovidCard';
-import Footer from './Components/Footer/Footer';
-import Navigation from './Components/Navigation/Navigation';
+import CovidCard from '../Components/CovidCard/CovidCard';
+import Footer from '../Components/Footer/Footer';
+import Navigation from '../Components/Header/Header';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 function App() {

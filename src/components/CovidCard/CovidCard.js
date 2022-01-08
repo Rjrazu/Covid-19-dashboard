@@ -57,8 +57,8 @@ const CovidCard = () => {
             <div className=' py-5 '
                 style={{ background: "rgba(255, 255, 255, 0.3)", }}>
                 <div className=' text-center'>
-                    <small className=' text-pink-500 font-extrabold uppercase'>Last Covid-19 Update</small>
-                    <h5 className=' text-violet-600 font-bold'>{new Date().toDateString()} || {secondChange}</h5>
+                    <small className=' text-orange-500 font-extrabold uppercase'>Last Covid-19 Update</small>
+                    <h5 className=' text-teal-500 font-bold'>{new Date().toDateString()} || {secondChange}</h5>
                 </div>
 
                 {
@@ -134,7 +134,7 @@ const CovidCard = () => {
                                             <div
                                                 className="border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110 bg-sky-900">
 
-                                                <i className="far text-red-600 fa-check-circle fw-bold text-5xl"></i>
+                                                <i className="far text-white-600 fa-check-circle fw-bold text-5xl"></i>
 
                                                 <h2 className="title-font font-medium text-3xl ">  <CountUp start={0} end={covidData?.Confirmed} duration={4} seperator="," /></h2>
                                                 <p className="leading-relaxed">Confirmed</p>
